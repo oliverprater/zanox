@@ -1,7 +1,6 @@
-require "zanox/version"
-
 module Zanox
   module API
+    gem 'soap4r-ruby1.9' if RUBY_VERSION > '1.9'
     require 'soap/wsdlDriver'
     require 'base64'
     require 'hmac-sha1'
