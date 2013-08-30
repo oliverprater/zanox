@@ -1,4 +1,4 @@
-require_relative '../../lib/zanox/test_helper'
+require_relative 'test_helper'
 
 class TestZanoxConnect < Test::Unit::TestCase
   should "get a new offline session" do

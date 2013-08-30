@@ -1,5 +1,5 @@
 #!/usr/bin/env rake
-require "bundler/gem_tasks"
+require 'bundler/gem_tasks'
  
 require 'rake/testtask'
  
@@ -10,3 +10,13 @@ Rake::TestTask.new do |t|
 end
  
 task :default => :test
+
+require 'rdoc/task'
+Rake::RDocTask.new do |rdoc|
+  version = File.exist?('VERSION') ? File.read('VERSION') : ""
+
+  rdoc.rdoc_dir = 'rdoc'
+  rdoc.title = "zanox #{version}"
+  rdoc.rdoc_files.include('README*')
+  rdoc.rdoc_files.include('lib/**/*.rb')
+end

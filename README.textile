@@ -5,13 +5,17 @@ orginal by Krispin Schulz and modified by Oliver Prater
 The zanox gem is the ruby way to use the zanox API.
 It is a wrapper for the zanox Publisher web services and you can use resources like 
 models in ActiveRecord.
-This version uses the gem soap4r-ruby1.9 instead of the old ruby 1.8.x gem soap4r.
-*Use at your own risk! It was only tested with ruby 1.9.3.*
 
 h2. Getting started
 
 Add to your gem file:
 <pre><code>gem 'zanox'  :git => 'git@github.com:oliverprater/zanox.git'</code></pre>
+
+h2. Just for ruby 1.9
+
+This version uses the gem soap4r-ruby1.9 instead of the old ruby 1.8.x gem soap4r.
+It is based on a copy paste effort and a fresh gem build with <pre><code>bundle gem zanox</code></pre>
+*Use at your own risk! It was only tested with ruby 1.9.3.*
 
 h2. Features
 

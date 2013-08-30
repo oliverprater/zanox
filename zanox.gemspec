@@ -6,11 +6,12 @@ require 'zanox/version'
 Gem::Specification.new do |gem|
   gem.name          = "zanox"
   gem.version       = Zanox::VERSION
-  gem.authors       = ["Oliver Prater"]
+  gem.authors       = ["Krispin Schulz", "Tobias Schlottke", "Oliver Prater"]
   gem.email         = ["oliver.prater@gmail.com"]
-  gem.description   = %q{Zanox API Gem for ruby 1.9.x}
-  gem.summary       = %q{Zanox gem modified for version 1.9.x}
-  gem.homepage      = ""
+  gem.description   = %q{The easy way to the zanox web services with ruby 1.9.}
+  gem.summary       = %q{One gem to rule the zanox API.}
+  gem.homepage      = "https://github.com/oliverprater/zanox"
+  gem.licenses        = ["CC"]
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
