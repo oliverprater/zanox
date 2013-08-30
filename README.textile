@@ -14,8 +14,8 @@ Add to your gem file:
 h2. Just for ruby 1.9
 
 This version uses the gem soap4r-ruby1.9 instead of the old ruby 1.8.x gem soap4r.
-It is based on a copy paste effort and a fresh gem build with <pre><code>bundle gem zanox</code></pre>
-*Use at your own risk! It was only tested with ruby 1.9.3.*
+It is based on a copy paste effort and a fresh gem build.
+*Use at your own risk! I did not get tests passing.*
 
 h2. Features
 
