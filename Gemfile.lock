@@ -1,7 +1,9 @@
 PATH
   remote: .
   specs:
-    zanox (0.0.1)
+    zanox (0.2.7)
+      ruby-hmac
+      soap4r-ruby1.9
 
 GEM
   remote: https://rubygems.org/
@@ -18,12 +20,14 @@ GEM
     minitest (4.7.5)
     multi_json (1.7.9)
     rake (10.0.4)
+    ruby-hmac (0.4.0)
     shoulda (3.5.0)
       shoulda-context (~> 1.0, >= 1.0.1)
       shoulda-matchers (>= 1.4.1, < 3.0)
     shoulda-context (1.1.5)
     shoulda-matchers (2.3.0)
       activesupport (>= 3.0.0)
+    soap4r-ruby1.9 (2.0.5)
     term-ansicolor (1.2.2)
       tins (~> 0.8)
     thread_safe (0.1.2)
