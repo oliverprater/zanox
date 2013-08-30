@@ -1,4 +1,4 @@
-require 'helper'
+require_relative '../../lib/zanox/test_helper'
 
 class TestZanoxConnect < Test::Unit::TestCase
   should "get a new offline session" do
@@ -54,12 +54,3 @@ class TestZanoxProgramApplication < Test::Unit::TestCase
     assert(Zanox::ProgramApplication.find(:adspaceId=>TEST_ADSPACE_ID).size >= 1)
   end
 end
-
-# class TestZanoxSale < Test::Unit::TestCase
-#   should "find all sales for a given date" do
-#     assert(Zanox::Sale.find(:date=>TEST_SALE_DATE, :dateType=>'trackingDate').size.should >= 1)
-#   end
-#   should "find a sale by its id" do
-#     assert_equal(1, Zanox::Sale.find(TEST_SALE_ID).size)
-#   end
-# end

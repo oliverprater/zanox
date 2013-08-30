@@ -18,4 +18,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_development_dependency 'shoulda'
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'term-ansicolor'
+  gem.add_development_dependency 'turn'
 end
