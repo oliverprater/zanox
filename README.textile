@@ -9,7 +9,7 @@ models in ActiveRecord.
 h2. Getting started
 
 Add to your gem file:
-<pre><code>gem 'zanox'  :git => 'git@github.com:oliverprater/zanox.git'</code></pre>
+<pre><code>gem 'zanox', :git => 'git@github.com:oliverprater/zanox.git'</code></pre>
 
 h2. Just for ruby 1.9
 
